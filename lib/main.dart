@@ -26,7 +26,6 @@ class MyApp extends StatelessWidget {
 class MyThemeData {
   static var PrimaryColor = Color.fromARGB(255, 57, 165, 82);
   static var AccentColor = Color.fromARGB(255, 255, 255, 255);
-
   static var red = Color.fromARGB(255, 201, 28, 34);
   static var blue = Color.fromARGB(255, 0, 62, 144);
   static var pink = Color.fromARGB(255, 237, 30, 121);

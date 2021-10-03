@@ -20,6 +20,7 @@ class _NewsAppState extends State<NewsApp> {
     return Scaffold(
       drawer: DrawerWidget(onSideMenuItemClick),
       appBar: AppBar(
+        backgroundColor: MyThemeData.PrimaryColor,
         shape: ContinuousRectangleBorder(
             borderRadius: BorderRadius.only(
                 bottomLeft: Radius.circular(100),
@@ -30,6 +31,7 @@ class _NewsAppState extends State<NewsApp> {
             Spacer(), Icon(Icons.search)],
         ),
       ),
+
       body: selectedCategory != null
           ? HomeFragment(selectedCategory)
           : CategoriesFragment(onCategoryItemClick),
